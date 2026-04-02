@@ -1,0 +1,11 @@
+name = "masshub-landing"
+type = "javascript"
+
+[env.production]
+routes = [
+  { pattern = "masshub.com/*", zone_name = "masshub.com" }
+]
+
+[build]
+command = "echo 'Static site'"
+upload = { directory = "." }
