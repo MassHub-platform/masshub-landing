@@ -31,32 +31,49 @@
   <!-- Favicon (MassHub logo) -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
-  <!-- Structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://masshub.com/#organization",
-        "name": "MassHub",
-        "url": "https://masshub.com/",
-        "slogan": "Built for Enthusiasts. Powered by Community.",
-        "description": "A community-first social platform for cycling, motorcycling, and driving enthusiasts.",
-        "email": "hello@masshub.com"
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://masshub.com/#organization",
+      "name": "MassHub",
+      "url": "https://masshub.com/",
+      "slogan": "Built for Enthusiasts. Powered by Community.",
+      "description": "A community-first social platform for cycling, motorcycling, and driving enthusiasts.",
+      "email": "help@masshub.com",
+      "foundingDate": "2026",
+      "legalName": "MassHub LLC",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "NY",
+        "addressCountry": "US"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://masshub.com/#website",
-        "url": "https://masshub.com/",
-        "name": "MassHub",
-        "description": "Built for Enthusiasts. Powered by Community.",
-        "publisher": { "@id": "https://masshub.com/#organization" },
-        "inLanguage": "en-US"
+      "image": "https://masshub.com/masshub-logo-DhILkZ_F.png",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://masshub.com/masshub-logo-DhILkZ_F.png"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "help@masshub.com",
+        "contactType": "customer support"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://masshub.com/#website",
+      "url": "https://masshub.com/",
+      "name": "MassHub",
+      "description": "Built for Enthusiasts. Powered by Community.",
+      "publisher": { "@id": "https://masshub.com/#organization" },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
 
   <!-- Fonts: Google Fonts (via CDN, not inlined to keep file size reasonable) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
